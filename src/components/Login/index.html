@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Hotel</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="background">
+      <div>
+        <video src="../../assets/video.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+      </div>
+      <div>
+        <h2 class="logo">Hotel</h2>
+      </div>
+      <div class="box-text">
+        <div class="text">
+          <h1>Nunca Pare De</h1>
+          <h2>Viajar</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui incidunt esse suscipit expedita, quidem saepe
+            tempora, amet maiores asperiores repellat sed nam officia nemo odit, ratione dicta ea non? Esse!</p>
+        </div>
+      </div>
+      
+    </div>
+    <div class="login">
+      <div class="container-login">
+        <h2>Login</h2>
+        <form >
+          <div class="inputs">
+            <label>E-Mail:</label>
+            <input type="email" required id="email" />
+            <span id="resultEmail"></span>
+            <label>Senha:</label>
+            <input type="password" required  id="password"/>
+            <span id="resultPassword"></span>
+            <br/>
+            <span><i class="fas fa-lock"></i>&nbsp; Esqueceu sua senha ?</span>
+          </div>
+          <div class="box-button">
+            <button type="button" id="btnSubmit"> Entrar <i class="fas fa-arrow-right"></i></button>
+          </div>
+          <p class="text-register">Ainda não tem uma conta ?<a href="../Cadastro/index.html"> Cadastre-se aqui!</a></p>
+      </div>
+      </form>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
